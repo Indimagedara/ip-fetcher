@@ -1,0 +1,70 @@
+
+<h4>Your IP :{{ipAddr.ip}}</h4>
+
+
+<a href="#" (click)="loadInfo();">View more info</a>
+
+<span *ngIf="infoStatus">
+    <table>
+        <tr>
+            <td>City</td>
+            <td>{{ipInfo.geoplugin_city}}</td>
+        </tr>
+        <tr>
+            <td>Region</td>
+            <td>{{ipInfo.geoplugin_region}}</td>
+        </tr>
+        <tr>
+            <td>Country Code</td>
+            <td>{{ipInfo.geoplugin_countryCode}}</td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>{{ipInfo.geoplugin_countryName}}</td>
+        </tr>
+        <tr>
+            <td>Continent Code</td>
+            <td>{{ipInfo.geoplugin_continentCode}}</td>
+        </tr>
+        <tr>
+            <td>Continent name</td>
+            <td>{{ipInfo.geoplugin_continentName}}</td>
+        </tr>
+        <tr>
+            <td>Latitude</td>
+            <td>{{ipInfo.geoplugin_latitude}}</td>
+        </tr>
+        <tr>
+            <td>Longitude</td>
+            <td>{{ipInfo.geoplugin_longitude}}</td>
+        </tr>
+        <tr>
+            <td>Location Accuracy Radius</td>
+            <td>{{ipInfo.geoplugin_locationAccuracyRadius}}</td>
+        </tr>
+        <tr>
+            <td>TimeZone</td>
+            <td>{{ipInfo.geoplugin_timezone}}</td>
+        </tr>
+        <tr>
+            <td>Country Code</td>
+            <td>{{ipInfo.geoplugin_currencyCode}}</td>
+        </tr>
+        <tr>
+            <td>Currency Symbol</td>
+            <td>{{ipInfo.geoplugin_currencySymbol}}</td>
+        </tr>
+        <tr>
+            <td>Currency Symbol in UTF8</td>
+            <td>{{ipInfo.geoplugin_currencySymbol_UTF8}}</td>
+        </tr>
+        <tr>
+            <td>Currency Convert ({{ipInfo.geoplugin_currencyCode}}/USD)</td>
+            <td>{{ipInfo.geoplugin_currencyConverter}}</td>
+        </tr>
+        <tr>
+            <td>ISP</td>
+            <td>{{ISPInfo.isp}}</td>
+        </tr>
+    </table>
+</span>
