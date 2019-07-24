@@ -1,4 +1,5 @@
-<i>Description</i><br>
+<h2>IP Fetcher</h2>
+<h3><i>Description</i><br></h3>
   Fetch your current IP address and give you additional information about the IP
 
 # IpFetcher
