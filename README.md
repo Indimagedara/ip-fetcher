@@ -1,3 +1,6 @@
+<i>Description</i><br>
+  Fetch your current IP address and give you additional information about the IP
+
 # IpFetcher
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
